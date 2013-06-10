@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="views-core-toolbox-0.9.5.0-SNAPSHOT">
+    <ANNOTATIONS>
+      <root url="file://$PROJECT_DIR$/lib/annotations/views-core-toolbox-0.9.5.0-SNAPSHOT" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/views-core-toolbox-0.9.5.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/views-core-toolbox-0.9.5.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
