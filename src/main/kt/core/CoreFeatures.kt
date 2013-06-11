@@ -9,13 +9,15 @@ fun TypInference(obj : String) {
     // Parameters is a 'val'
     // 'val' are read-only values. Therefore illegal:
     //      obj = "str2"
+    obj.length()
 
     // var are r/w
+    // s is inferred as <Nothing?>
     var s = null
 
-    // s becomes Nothing?. Therefore illegal_
+    // Therefore illegal:
     //      s = "foo"
 
     // WTF?
-    val sub = s?.substring(2)
+    s?.substring(2)
 }
