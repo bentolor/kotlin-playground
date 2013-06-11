@@ -1,4 +1,4 @@
-package oop3
+package basics.safecast
 
 fun safecast(aObj : Any) : Int {
     // safe case + elvis operator

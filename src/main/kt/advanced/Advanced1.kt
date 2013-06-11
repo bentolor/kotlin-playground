@@ -1,42 +1,30 @@
-package advanced
+package advanced.whenadvanced
 
-fun smartcast(obj : Any?) {
-    // smart cast
-    if (obj is String) {
-        obj.substring(2)
-    }
+import basics.extensions.isOdd                          // Extension req' import!
 
-}
 
-// smart cast, pattern matching
 fun if_else_on_drugs(obj : Any?)  {
     when (obj) {
-        is String -> Integer.parseInt(obj) - 1
+        is String -> Integer.parseInt(obj) - 1          // smartcast to String
         is Int -> obj + 1
         !is Number -> "Not even a number"
-        else -> "No clue what to do"
+        else -> "No clue what to do"                    // else mandatory
     }
 }
 
 fun if_else_on_speed(num : Int) : String {
-    // Ranges
     return when (num) {
         0 -> "Zero"
         1, 2, 3 -> "One, two or three"
-        in 4..100 ->
-           if (num.isOdd())
+        in 4..100 ->                                    // Ranges
+        if (num.isOdd())
                "An odd number between 5 und 99"
            else
-               // continue - not yet implemented
-               "An equal number between 5 und 99"
+               "An equal number between 5 und 99"       // Future: 'continue' possible
         in 100..100000 -> "A large number"
         else -> "Some number"
     }
 }
-
-// extension function
-//
-fun Int.isOdd() : Boolean =  this % 2 != 0
 
 fun main(args: Array<String>) {
     println(if_else_on_speed(13))

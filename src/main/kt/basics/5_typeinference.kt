@@ -1,4 +1,4 @@
-package core
+package basics.typinfer
 
 
 // Type inference

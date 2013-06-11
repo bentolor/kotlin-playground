@@ -1,4 +1,4 @@
-package oop2
+package oop.traits
 
 // traits:
 //   - no fields, no constructors
