@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="de.exxcellent.toolbox.ArrayTools T[] adjustedArray(T[], T, int, int) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="de.exxcellent.toolbox.ArrayTools T[] append(T[], T...) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="de.exxcellent.toolbox.ArrayTools T[] append(T[], T...) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="de.exxcellent.toolbox.ArrayTools T[] copyArray(T[]) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="de.exxcellent.toolbox.ArrayTools T[] prepend(T[], T...) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="de.exxcellent.toolbox.ArrayTools T[] prepend(T[], T...) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="de.exxcellent.toolbox.ArrayTools T[] resizeArray(T[], int) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="de.exxcellent.toolbox.ArrayTools boolean haveEqualArrays(java.lang.Object[], java.lang.Object[], int) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="de.exxcellent.toolbox.ArrayTools void fillArray(T[], T) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="de.exxcellent.toolbox.ExceptionTools java.lang.String report(java.util.logging.Level, java.lang.String, java.lang.Throwable) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="de.exxcellent.toolbox.ExceptionTools.ProblemDetails ProblemDetails(java.lang.Throwable, java.lang.StackTraceElement) 1">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="de.exxcellent.toolbox.ExceptionTools.ProblemDetails java.lang.StackTraceElement getSpot()">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="de.exxcellent.toolbox.WeakSet boolean addAll(java.util.Collection&lt;? extends TYPE&gt;) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="de.exxcellent.toolbox.WeakSet boolean removeAll(java.util.Collection&lt;?&gt;) 0">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="de.exxcellent.toolbox.Wrap java.util.List&lt;E&gt; iterIntoList(java.util.Iterator&lt;E&gt;)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="de.exxcellent.toolbox.Wrap java.util.List&lt;T&gt; intoList(T...)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="de.exxcellent.toolbox.Wrap java.util.Map&lt;KEY,VALUE&gt; intoMap(java.lang.Object...)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+  <item name="de.exxcellent.toolbox.Wrap java.util.Set&lt;T&gt; intoSet(T...)">
+    <annotation name="org.jetbrains.annotations.NotNull" />
+  </item>
+</root>
+
